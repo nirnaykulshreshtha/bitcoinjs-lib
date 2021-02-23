@@ -43,3 +43,14 @@ exports.dogecoin = {
     scriptHash: 0x16,
     wif: 0x9e
 }
+exports.dogecointestnet = {
+    messagePrefix: '\x19Dogecoin Signed Message:\n',
+    bip32: {
+        public: 0x0432a9a8,
+        private: 0x0432a243
+    },
+    pubKeyHash: 0x71,
+    scriptHash: 0xc4,
+    wif: 0x9e,
+};
+
